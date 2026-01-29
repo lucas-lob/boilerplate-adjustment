@@ -12,7 +12,7 @@
 2. Tradução para portugês dos [`IDs` dos blocos institucionais](https://prnt.sc/Y7sjvqYTTF1l), pois eles aparecem para o cliente no Site Admin.
 3. Ajuste do `mixin` de transição para 250ms, os últimos projetos utilizaram este valor porque o valor atual de 500ms é elevado.
 4. Adição da variável de cor para o _hover_ da cor primária.
-5. Substituição de todos os atributo `border-radius` para o `mixin border-radius`, para ser possível alterar o valor em todo projeto rapidamente de acordo com o _design system_ do projeto.
+5. Substituição de atributos `border-radius` para o `mixin border-radius`, para ser possível alterar o valor em todo projeto rapidamente de acordo com o _design system_ do projeto.
 6. Substituição de `media queries` de 1024px para 1026px, pois a VTEX IO hoje considera tela `desktop` acima de 1026px.
 7. Ajuste do componente `responsive-image` para considerar a imagem `desktop` para telas tablets, esse foi o padrão adotado em lojas Faststore e nas últimas lojas IO, pois a imagem `mobile` ficava muito grande em telas tablets.
 8. Remoção de `!important`.
